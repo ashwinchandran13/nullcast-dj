@@ -1,0 +1,22 @@
+{
+  "name": "nullcast-dj",
+  "version": "1.0.0",
+  "description": "Nullcast discord channel music bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwinchandran13/nullcast-dj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwinchandran13/nullcast-dj/issues"
+  },
+  "homepage": "https://github.com/ashwinchandran13/nullcast-dj#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
+}
