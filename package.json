@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Nullcast discord channel music bot",
   "main": "main.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ashwinchandran13/nullcast-dj#readme",
   "dependencies": {
-    "discord.js": "^13.1.0"
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
   }
 }

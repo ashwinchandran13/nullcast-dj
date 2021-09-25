@@ -1,4 +1,10 @@
-const { Client, Intents } = require('discord.js');
+import { Client, Intents } from 'discord.js';
+import { config } from 'dotenv';
+
+const env = config();
+if (env.error) {
+    throw env.error;
+} 
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
@@ -6,4 +12,4 @@ client.once('ready', () => {
     console.log('nullcast dj is online');
 })
 
-client.login('ODkxMjE2OTk4Nzk1NzA2Mzg4.YU7Igg.LgE6J2H6oIF6wUAeCoexl5tEMzY');
+client.login(process.env.LOGIN_TOKEN);
